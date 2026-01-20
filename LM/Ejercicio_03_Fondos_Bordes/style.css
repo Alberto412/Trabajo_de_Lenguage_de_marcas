@@ -1,0 +1,48 @@
+body{
+     background-color: #e4e0e0;
+     text-align: center;
+}
+.contenedor{
+   text-align: center;
+    
+}
+
+.tarjeta{
+    border-radius: 15%;
+width: 300px;
+padding: 20px;
+margin: auto;
+
+}
+
+.tarjeta-simple{
+    border-radius: 15%;
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.tarjeta-degradado{
+    background: linear-gradient(45deg, #2196F3, #b217c0);
+    border-radius: 15%;
+    margin-top: 17px;
+    color: white;
+    
+}
+.tarjeta-imagen{
+    background-size: cover ;
+    background-position: center;
+    background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    background-image: url("limon.jpeg")
+    
+
+}
+.circulo{
+   line-height: 150px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(255, 164, 61) ;
+    border-radius: 100%;
+
+}

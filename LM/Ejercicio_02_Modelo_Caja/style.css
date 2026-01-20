@@ -1,14 +1,32 @@
+.center{
+    text-align: center;
+
+}
+.center2{
+    
+    background-color: #c4bfbf;
+}
+.explicacion{
+    width: 1000px;
+    padding: 20px;
+    box-sizing: content-box; 
+    background-color: #ffffff;
+    margin: auto;
+}
 .caja {
 width: 300px;
 padding: 20px;
-border: 10px solid #007bff;
+margin: auto;
+
 }
 
 .caja-content {
 box-sizing: content-box;
 background-color: #ffe0b2;
+border: 10px solid  #ee8860;
 }
-.caja-border {
+.caja-border { margin-top: 10px;
 box-sizing: border-box;
 background-color: #c8e6c9;
+border: 10px solid #68b66a;
 }
