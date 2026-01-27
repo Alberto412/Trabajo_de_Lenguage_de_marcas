@@ -1,0 +1,27 @@
+header{
+    background-color: #e91e63;
+    
+}
+.caja-fija {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.contenedor-relativo { 
+    position: relative; 
+}
+
+.caja-absoluta {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.caja-sticky {
+    position: sticky;
+    top: 0;
+}
+.scroll-demo{
+    
+}
