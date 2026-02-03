@@ -1,0 +1,121 @@
+/* =========================================
+   EXAMEN: REPASO CSS
+   Instrucciones: Completa las secciones indicadas 
+   para lograr el diseño del ejemplo.
+   ========================================= */
+
+/* 1. RESET BÁSICO (Completa el box-sizing) */
+* {
+    margin: 0;
+    padding: 0;
+    /* Tu código aquí */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* HEADER Y FOOTER (Estilos básicos ya definidos) */
+header {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #7f8c8d;
+}
+
+.seccion-repaso {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #3498db;
+    border-radius: 4px;
+}
+
+/* =========================================
+   A COMPLETAR POR EL ESTUDIANTE
+   ========================================= */
+
+/* 1. MODELO DE CAJA 
+   Añade borde, padding y margen a .caja-ejemplo
+*/
+.caja-ejemplo {
+    /* Tu código aquí */
+    
+    background-color: #b6cbe0;
+    border: 1px solid rgb(83, 91, 112);
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.etiqueta-destacada {
+    /* Dale estilo de botón rojo al enlace */
+    margin-top: auto;
+    text-decoration:none;
+    color: whitesmoke;
+    bottom: auto;
+    border-radius: 5%;
+    background-color: red;
+    border: 1px solid rgb(49, 1, 1);
+    display: inline-block;
+    
+
+}
+
+/* 2. FLEXBOX 
+   Convierte .contenedor-flex en un contenedor flex 
+   y reparte el espacio equitativamente.
+*/
+.contenedor-flex {
+    /* Tu código aquí */
+    color: antiquewhite;
+    display: flex;
+    background-color: #d4d5d6;
+    padding: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+    gap: 10px;
+     justify-content: space-around;
+}
+
+.item-flex {
+    background-color: rgb(50, 73, 205);
+}
+.item-especial{
+    background-color: darkolivegreen;
+}
+
+/* 3. GRID LAYOUT
+   Crea una rejilla de 2 columnas para .contenedor-grid
+*/
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+    /* Tu código aquí */
+}
+@media (min-width: 600px) {
+.contenedor-grid{
+grid-template-columns: 1fr 1fr;
+}
+
+}
+
+.celda {
+    background: #9b59b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
