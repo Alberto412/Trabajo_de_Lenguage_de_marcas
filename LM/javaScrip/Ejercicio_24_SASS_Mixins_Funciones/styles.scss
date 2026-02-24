@@ -1,0 +1,54 @@
+// Variables para colores
+$color-success: #28a745;
+$color-danger: #dc3545;
+$color-warning: #ffc107;
+$primary-color: #3498db;
+
+// Mixin para estructura de botones
+@mixin btn-structure {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+// Mixin para tema de botones
+@mixin btn-theme($color) {
+  background-color: $color;
+  color: white;
+  &:hover {
+    background-color: darken($color, 10%);
+  }
+}
+
+// Mixin para centrar elementos (flexbox)
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Aplicación de mixins
+.btn-success {
+  @include btn-structure;
+  @include btn-theme($color-success);
+}
+
+.btn-danger {
+  @include btn-structure;
+  @include btn-theme($color-danger);
+}
+
+.btn-warning {
+  @include btn-structure;
+  @include btn-theme($color-warning);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: $primary-color;
+  @include flex-center;
+  color: white;
+}
