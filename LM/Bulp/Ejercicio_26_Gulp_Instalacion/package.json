@@ -13,5 +13,8 @@
         "gulp": "^4.0.2",
         "gulp-sass": "^5.1.0",
         "sass": "^1.70.0"
+    },
+    "dependencies": {
+        "package.json": "^2.0.1"
     }
 }
