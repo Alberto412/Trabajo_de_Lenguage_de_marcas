@@ -1,0 +1,22 @@
+.container {
+  font-family: "Arial, sans-serif";
+  padding: 16px;
+}
+.container h1 {
+  color: #3498db;
+  font-size: 24px;
+}
+.container p {
+  color: rgb(25.4560669456, 96.1673640167, 143.5439330544);
+  font-size: 16px;
+}
+.container .btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.container .btn:hover {
+  background-color: rgb(238, 57.0769230769, 0);
+}/*# sourceMappingURL=styles.css.map */
