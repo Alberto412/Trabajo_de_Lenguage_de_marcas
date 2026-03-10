@@ -6,7 +6,7 @@ const container = document.getElementById('resultado');
 // function saludar(nombre) {
 //    return 'Hola ' + nombre;
 // }
-
+const saludar = (nombre) => "hola "+ $(nombre);
 
 // 2. Dado el siguiente array de objetos:
 const usuarios = [
@@ -16,6 +16,7 @@ const usuarios = [
 ];
 
 // 3. Usa .filter() (con arrow function) para encontrar a los de rol 'Admin'
-
-
+const Admin = usuarios.filter(usuario => usuario.rol==="Admin");
 // 4. Renderiza la lista en el DOM usando Template Literals (``) y .map()
+const listaHTML = Admin.map(u => `<li>${u.nombre}</li>`);
+container.innerHTML = `<ul>${listaHTML.join('')}</ul>`;
