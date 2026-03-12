@@ -1,0 +1,29 @@
+// 1. Define las variables de color
+$colorprincipal: #e74c3c;
+// 2. Estilos para el contenedor
+// 3. Estilos anidados para la .card
+.card {
+    // Variable local, border, shadow...
+        border: solid ,2 px, $colorprincipal;
+        
+        
+
+    &__img {
+        // ...
+        padding: 20px;
+    }
+    
+    &__content {
+        margin: 15px;
+    
+        // ...
+    }
+}
+
+// 4. Media Query para móviles (< 600px)
+@media (min-width: 600px) {
+         .card {
+            size: 100%;
+            
+        }
+    }

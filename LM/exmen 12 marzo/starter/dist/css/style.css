@@ -1,0 +1,9 @@
+.card {
+  border: solid, 2 px, colorprincipal;
+}
+.card__img {
+  padding: 20px;
+}
+.card__content {
+  margin: 15px;
+}
