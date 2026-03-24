@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+    <item category="Tecnología">
+        <title>Nuevo smartphone lanzado</title>
+        <description>La nueva generación incluye IA avanzada.</description>
+        <pubDate>2026-03-20</pubDate>
+        <author>Juan Pérez</author>
+    </item>
+
+    <item category="Deportes">
+        <title>Victoria en la final</title>
+        <description>El equipo local gana el campeonato.</description>
+        <pubDate>2026-03-18</pubDate>
+        <author>Ana López</author>
+    </item>
+
+    <item category="Economía">
+        <title>Suben los mercados</title>
+        <description>Las bolsas europeas cierran en positivo.</description>
+        <pubDate>2026-03-17</pubDate>
+        <author>Carlos Ruiz</author>
+    </item>
+</feed>

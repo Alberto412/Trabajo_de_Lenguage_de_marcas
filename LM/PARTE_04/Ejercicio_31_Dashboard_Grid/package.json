@@ -1,0 +1,13 @@
+{
+  "name": "examen-parte-3-starter",
+  "version": "1.0.0",
+  "description": "Starter para el examen de la Parte 3",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.70.0"
+  }
+}

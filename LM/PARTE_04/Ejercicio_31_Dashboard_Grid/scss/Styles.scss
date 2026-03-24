@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 70px 1fr;
+  grid-template-areas:
+        "sidebar header"
+        "sidebar content";
+  height: 100vh;
+
+  .sidebar {
+    grid-area: sidebar;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .header {
+    grid-area: header;
+    background: #34495e;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background: #ecf0f1;
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula id="1">
+        <titulo>Inception</titulo>
+        <descripcion>Sueños dentro de sueños</descripcion>
+        <anio>2010</anio>
+        <genero>Ciencia ficción</genero>
+    </pelicula>
+
+    <pelicula id="2">
+        <titulo>Interstellar</titulo>
+        <descripcion>Viaje espacial</descripcion>
+        <anio>2014</anio>
+        <genero>Ciencia ficción</genero>
+    </pelicula>
+
+    <pelicula id="3">
+        <titulo>Gladiator</titulo>
+        <descripcion>Roma antigua</descripcion>
+        <anio>2000</anio>
+        <genero>Acción</genero>
+    </pelicula>
+</peliculas>

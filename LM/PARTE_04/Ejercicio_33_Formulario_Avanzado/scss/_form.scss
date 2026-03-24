@@ -1,0 +1,49 @@
+$success: #2ecc71;
+$error: #e74c3c;
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    small {
+        display: none;
+        color: $error;
+        font-size: 0.8em;
+    }
+
+    &.success input {
+        border-color: $success;
+    }
+
+    &.error input {
+        border-color: $error;
+    }
+
+    &.error small {
+        display: block;
+    }
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #34495e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
