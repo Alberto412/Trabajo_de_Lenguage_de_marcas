@@ -1,6 +1,22 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #ecf0f1;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
     padding: 20px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#buscador {
+    display: block;
+    margin: 0 auto 30px;
+    padding: 12px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    text-align: center;
 }

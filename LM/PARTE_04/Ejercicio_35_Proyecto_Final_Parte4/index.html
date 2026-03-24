@@ -2,16 +2,28 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Gestor de Películas</title>
+    <title>Gestor de Películas UCM</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>Películas</h1>
+<header>
+    <h1 class="title">🎬 Universo Cinematográfico Marvel</h1>
+</header>
 
-<input type="text" id="buscador" placeholder="Buscar película...">
+<main>
+    <section class="buscador-container">
+        <input type="text" id="buscador" placeholder="Buscar película...">
+    </section>
 
-<div id="contenedor" class="grid"></div>
+    <section id="contenedor" class="grid">
+        <!-- Aquí se cargan las películas dinámicamente -->
+    </section>
+</main>
+
+<footer>
+    <p>Proyecto LM - Gestor de Películas UCM</p>
+</footer>
 
 <script src="main.js"></script>
 </body>

@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <peliculas>
     <pelicula id="1">
-        <titulo>Inception</titulo>
-        <descripcion>Sueños dentro de sueños</descripcion>
-        <anio>2010</anio>
-        <genero>Ciencia ficción</genero>
+        <titulo>Avengers: Endgame</titulo>
+        <descripcion>La batalla final contra Thanos</descripcion>
+        <anio>2019</anio>
+        <genero>Acción</genero>
     </pelicula>
 
     <pelicula id="2">
-        <titulo>Interstellar</titulo>
-        <descripcion>Viaje espacial</descripcion>
-        <anio>2014</anio>
-        <genero>Ciencia ficción</genero>
+        <titulo>Avengers: Infinity War</titulo>
+        <descripcion>Los héroes enfrentan a Thanos</descripcion>
+        <anio>2018</anio>
+        <genero>Acción</genero>
     </pelicula>
 
     <pelicula id="3">
-        <titulo>Gladiator</titulo>
-        <descripcion>Roma antigua</descripcion>
-        <anio>2000</anio>
+    <titulo>Loki</titulo>
+    <descripcion>El dios del engaño explora el multiverso y su destino</descripcion>
+    <anio>2021</anio>
+    <genero>Fantasía</genero>
+</pelicula>
+    <pelicula id="4">
+        <titulo>Guardians of the Galaxy</titulo>
+        <descripcion>Un grupo de inadaptados salva la galaxia</descripcion>
+        <anio>2014</anio>
+        <genero>Aventura</genero>
+    </pelicula>
+
+    <pelicula id="5">
+        <titulo>Spider-Man: No Way Home</titulo>
+        <descripcion>El multiverso se desata</descripcion>
+        <anio>2021</anio>
         <genero>Acción</genero>
     </pelicula>
 </peliculas>
